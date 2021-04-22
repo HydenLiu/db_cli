@@ -1,0 +1,38 @@
+{
+  "name": "create-db",
+  "version": "1.0.0",
+  "description": "Quickly create a project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js,.tsx,.ts",
+    "lint:fix": "yarn lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunupdong/create-db-cli.git"
+  },
+  "bin": {
+    "create-db": "index.js"
+  },
+  "author": "sunupdong",
+  "license": "ISC",
+  "homepage": "https://github.com/sunupdong/create-db-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download": "^7.1.0",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.2.1",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.0",
+    "symbols": "^0.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}
