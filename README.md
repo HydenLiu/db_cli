@@ -8,7 +8,7 @@ A cli to create project quickly...
 ## create webpack project
 
 1. 创建项目
-* `db create [project-name]`
+* `db create [project-name]` OR `db i [project-name]`
 
 2. 选择一个需要的模板
 * `Select the template you want`

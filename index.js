@@ -53,7 +53,7 @@ program
               console.error(symbols.error, chalk.red(`${err}下载模板失败，请检查您的网络连接，然后重试`))
               process.exit(1)
             }
-            spinner.succeed(chalk.green(`下载成功, cd ${name} -> yarn install -> yarn serve`))
+            spinner.succeed(chalk.green(`下载成功, cd ${name} -> yarn -> yarn serve`))
             const meta = {
               name,
               description: answers.description,
