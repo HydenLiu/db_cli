@@ -1,6 +1,6 @@
 {
   "name": "@sunupdong/db_cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly create a project",
   "main": "index.js",
   "scripts": {

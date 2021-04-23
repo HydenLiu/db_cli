@@ -7,6 +7,13 @@ A cli to create project quickly...
 
 ## create webpack project
 
-1. db create [project-name]
-2. Select the template you want
-3. run `yarn && yarn serve`
+1. 创建项目
+* `db create [project-name]`
+
+2. 选择一个需要的模板
+* `Select the template you want`
+
+3. 初始化并运行项目
+* cd [project-name]
+* yarn run: `yarn && yarn serve`
+* npm run: `npm install && npm run serve`
