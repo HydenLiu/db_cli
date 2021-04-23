@@ -1,5 +1,5 @@
 {
-  "name": "create-db",
+  "name": "@sunupdong/db_cli",
   "version": "1.0.0",
   "description": "Quickly create a project",
   "main": "index.js",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunupdong/create-db-cli.git"
+    "url": "git+https://github.com/sunupdong/db_cli.git"
   },
   "bin": {
-    "create-db": "index.js"
+    "db": "index.js"
   },
   "author": "sunupdong",
   "license": "ISC",
-  "homepage": "https://github.com/sunupdong/create-db-cli#readme",
+  "homepage": "https://github.com/sunupdong/db_cli#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
     "download": "^7.1.0",
     "download-git-repo": "^2.0.0",
-    "handlebars": "^4.2.1",
+    "handlebars": "^4.7.7",
     "inquirer": "^7.0.0",
     "ora": "^4.0.0",
     "symbols": "^0.0.6"
