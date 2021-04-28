@@ -21,7 +21,11 @@ program
             name: 'templateType',
             message: ' select the type of template you want to create?',
             type: 'list',
-            choices: ['基于vue3+vite+antd+ts的模板', '基于react+ant-design-pro+ts的模板'],
+            choices: [
+              '基于vue3+vite+antd+ts的模板',
+              '基于react+ant-design-pro+ts的模板',
+              '基于taro-react+ts的小程序模板'
+            ],
           },
           {
             name: 'author',
@@ -43,6 +47,9 @@ program
               break
             case '基于react+ant-design-pro+ts的模板':
               downloadPath = 'direct:https://gitee.com/sunupdong/dong-ant-design-template.git#master'
+              break
+            case '基于taro-react+ts的小程序模板':
+              downloadPath = 'direct:https://gitee.com/sunupdong/taro-react-ts-template.git#master'
               break
             default:
               spinner.fail(chalk.red('操作异常'))
