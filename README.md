@@ -1,11 +1,11 @@
-# @sunupdong/db_cli
+# ⭐ @sunupdong/db_cli
 A cli to create project quickly...
 
-## install global
+## 🔧 install global
 
 `npm install @sunupdong/db_cli -g`
 
-## create webpack project
+## 🔨 create webpack project
 
 1. 创建项目
 * `db create [project-name]` OR `db i [project-name]`
